@@ -126,6 +126,6 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
     ext_modules = modules,
-    setup_requires = ['Cython==3.0.0a9'],
+    setup_requires = ['Cython==0.29.25'],
     install_requires = ['setuptools>=19.0'],
 )
